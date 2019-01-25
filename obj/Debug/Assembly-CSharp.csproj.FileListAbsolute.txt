@@ -1,0 +1,2 @@
+C:\Users\Trixie\Documents\Alien Invasion\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Trixie\Documents\Alien Invasion\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

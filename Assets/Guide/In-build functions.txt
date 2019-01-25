@@ -1,0 +1,1 @@
+PlayerPrefs(Stores and accesses player preferences between game sessions.)
