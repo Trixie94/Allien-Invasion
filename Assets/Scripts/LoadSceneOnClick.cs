@@ -10,4 +10,22 @@ public class LoadSceneOnClick : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
         Time.timeScale = 1.0f;
     }
+
+    public void LoadEasy()
+    {
+        GlobalControl.Instance.lifes = 3;
+        SceneManager.LoadScene(2);
+    }
+
+    public void LoadNormal()
+    {
+        GlobalControl.Instance.lifes = 2;
+        SceneManager.LoadScene(2);
+    }
+
+    public void LoadHard()
+    {
+        GlobalControl.Instance.lifes = 1;
+        SceneManager.LoadScene(2);
+    }
 }

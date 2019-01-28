@@ -16,6 +16,11 @@ public class GameMaster : MonoBehaviour {
         {
             gm.playerScore = PlayerPrefs.GetInt("Score");
         }
+
+    }
+    private void Start()
+    {
+        lifes = GlobalControl.Instance.lifes;
     }
 
     public Transform playerPrefab;
@@ -25,7 +30,7 @@ public class GameMaster : MonoBehaviour {
     public Scene scene;
     public CameraShake cameraShake;
     public int playerScore;
-    public int lifes = 3;
+    public int lifes;
     public Player player;
     public bool keyAcquired = false;
 

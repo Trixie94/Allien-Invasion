@@ -75,9 +75,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.45}
+  m_Offset: {x: 0, y: -0.37875634}
   serializedVersion: 2
-  m_Radius: 0.16
+  m_Radius: 0.08875638
 --- !u!50 &857641470202581073
 Rigidbody2D:
   serializedVersion: 4
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003351301, y: 0}
+  m_Offset: {x: -0.003351301, y: 0.004080653}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -170,7 +170,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.58442706, y: 1}
+  m_Size: {x: 0.58442706, y: 0.8361018}
   m_EdgeRadius: 0
 --- !u!114 &7068765561644519395
 MonoBehaviour:
@@ -214,7 +214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857641470401500960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.018, y: -0.033, z: 0}
+  m_LocalPosition: {x: 0.013, y: -0.045, z: 0}
   m_LocalScale: {x: 0.5264, y: 0.594, z: 1}
   m_Children:
   - {fileID: 4847933793021855579}
@@ -307,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857641470610839175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6034732, z: 0}
+  m_LocalPosition: {x: 0, y: -0.439, z: 0}
   m_LocalScale: {x: 0.56448287, y: 0.5644837, z: 1}
   m_Children: []
   m_Father: {fileID: 857641470202581076}
@@ -368,8 +368,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857641471831589353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5644829, y: 0.56448364, z: 1}
+  m_LocalPosition: {x: -0.039, y: 0.002, z: 0}
+  m_LocalScale: {x: 0.7616283, y: 0.46532604, z: 1}
   m_Children: []
   m_Father: {fileID: 857641470202581076}
   m_RootOrder: 2
@@ -416,7 +416,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8333333, y: 1.7777778}
+  m_Size: {x: 0.7, y: 0.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -755,7 +755,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9105784824049407625}
   - component: {fileID: 9105784824049407626}
-  - component: {fileID: 4387972604899549359}
   - component: {fileID: 2004087961}
   m_Layer: 0
   m_Name: MachineGun
@@ -763,7 +762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9105784824049407625
 Transform:
   m_ObjectHideFlags: 0
@@ -827,29 +826,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4387972604899549359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9105784824049407637}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae3649a889d54f14b9d2d1db92a6c1b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireRate: 0
-  Damage: 25
-  whatToHit:
-    serializedVersion: 2
-    m_Bits: 7479
-  BulletTrainPrefab: {fileID: 4969297845671992, guid: 64be6f76fac791b44a1cc06503877062,
-    type: 3}
-  MuzzleFlashPrefab: {fileID: 4297634262321834, guid: 00bbc6c6bb43b2946ad7f5d67485d8bd,
-    type: 3}
-  HitPrefab: {fileID: 4893405369018458, guid: 78373311c0525ee44b8e86b3a3e4cb51, type: 3}
-  effectSpawnRate: 10
 --- !u!114 &2004087961
 MonoBehaviour:
   m_ObjectHideFlags: 0

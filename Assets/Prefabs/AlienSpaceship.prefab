@@ -113,7 +113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -214.10936, y: -1052.3}
+  m_AnchoredPosition: {x: -212.9, y: -1137}
   m_SizeDelta: {x: 100.82, y: 66.1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &222849372803003076
@@ -182,7 +182,7 @@ RectTransform:
   m_GameObject: {fileID: 1186898872994438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.015965, y: 0.0025332903, z: 0.015965}
+  m_LocalScale: {x: 0.036932535, y: 0.005086115, z: 0.018744508}
   m_Children:
   - {fileID: 224903551879255216}
   - {fileID: 224956135940826154}
@@ -191,7 +191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.73, y: 3.4009}
+  m_AnchoredPosition: {x: 6.33, y: 8.53}
   m_SizeDelta: {x: 95.044, y: 124.5584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &223821014948379062
@@ -281,8 +281,8 @@ GameObject:
   - component: {fileID: 114956086285697006}
   - component: {fileID: 50912818868543216}
   - component: {fileID: 114556989062651488}
-  - component: {fileID: 58538988086209048}
   - component: {fileID: 114340528505973086}
+  - component: {fileID: 7594408304004153522}
   m_Layer: 12
   m_Name: AlienSpaceship
   m_TagString: Enemy
@@ -298,8 +298,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726312886779524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1, y: 5.12, z: 0}
-  m_LocalScale: {x: 0.82090795, y: 1.044076, z: 1}
+  m_LocalPosition: {x: -3.185, y: 5.8515, z: 0}
+  m_LocalScale: {x: 0.46872115, y: 0.25543436, z: 1}
   m_Children:
   - {fileID: 224100135227985752}
   m_Father: {fileID: 0}
@@ -342,12 +342,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2b03c06eb16b372429dcdc34a76d7888, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98e577d5787304a41b1d1a45e298f684, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.3, y: 1.6}
+  m_Size: {x: 1.9405657, y: 0.48476794}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -420,22 +420,6 @@ MonoBehaviour:
   fMode: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
---- !u!58 &58538988086209048
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726312886779524}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.6388889
 --- !u!114 &114340528505973086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,7 +434,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats:
     maxHealth: 100
-    damage: 40
+    damage: 30
   shakeAmt: 0.1
   shakeLength: 0.1
   statusIndicator: {fileID: 114488562359149766}
+--- !u!58 &7594408304004153522
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726312886779524}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0069833593, y: 0.017199595}
+  serializedVersion: 2
+  m_Radius: 0.34372866
