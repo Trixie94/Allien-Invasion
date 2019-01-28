@@ -2592,7 +2592,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3150,7 +3150,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3596,7 +3596,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5997,6 +5997,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2470329985630347101, guid: 74472228e3d480a419da7f0650b92b32,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -249.53
+      objectReference: {fileID: 0}
     - target: {fileID: 857641470202581085, guid: 74472228e3d480a419da7f0650b92b32,
         type: 3}
       propertyPath: statusIndicator
@@ -6027,11 +6032,6 @@ PrefabInstance:
       propertyPath: healthBarRect
       value: 
       objectReference: {fileID: 1943239786}
-    - target: {fileID: 2470329985630347101, guid: 74472228e3d480a419da7f0650b92b32,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -249.53
-      objectReference: {fileID: 0}
     - target: {fileID: 857641471951074139, guid: 74472228e3d480a419da7f0650b92b32,
         type: 3}
       propertyPath: m_LocalRotation.y

@@ -16,6 +16,7 @@ public class HealthBar : MonoBehaviour
         }    
         else if (GameMaster.gm.lifes == 1)
         {
+            heart3.SetActive(false);
             heart2.SetActive(false);
         }
         else if(GameMaster.gm.lifes == 0)

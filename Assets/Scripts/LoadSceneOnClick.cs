@@ -14,18 +14,18 @@ public class LoadSceneOnClick : MonoBehaviour
     public void LoadEasy()
     {
         GlobalControl.Instance.lifes = 3;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadNormal()
     {
         GlobalControl.Instance.lifes = 2;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadHard()
     {
         GlobalControl.Instance.lifes = 1;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }

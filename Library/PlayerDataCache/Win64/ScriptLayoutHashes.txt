@@ -1,8 +1,7 @@
 Win64
 PlayerPath?
-C:/Users/Trixie/Documents/Builds/Allien Invasion Alpha 1.1/Allien Invasion.exe
+C:/Users/Trixie/Documents/Builds/Allien Invasion Alpha 1.2/Allien Invasion.exe
 SceneListBegin?
-Assets/Scenes/Persistent.unity
 Assets/Scenes/Level0.unity
 Assets/Scenes/Level1.unity
 Assets/Scenes/Level2.unity
@@ -315,6 +314,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 698812e8d71fd38ac0f66f7a70a25fb5 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterTile
 c6882c107da77dbc05b5603ba123c506 Assembly-CSharp.dll:.ShootingEnemy
 b349b142d600a2478af04cea15b41a0b AstarPathfindingProject.dll:Pathfinding.AnimationLink
+96f2f9cf83f56261a4f091aa1d725072 Assembly-CSharp.dll:.GlobalControl
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 afbff10a52a7444de8aa6ca93490591e Assembly-CSharp.dll:.CameraShake
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
