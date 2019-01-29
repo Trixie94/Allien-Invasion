@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 50912818868543216}
   - component: {fileID: 114556989062651488}
   - component: {fileID: 114340528505973086}
-  - component: {fileID: 7594408304004153522}
+  - component: {fileID: 4969981495565415326}
   m_Layer: 12
   m_Name: AlienSpaceship
   m_TagString: Enemy
@@ -401,7 +401,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &114556989062651488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
   shakeAmt: 0.1
   shakeLength: 0.1
   statusIndicator: {fileID: 114488562359149766}
---- !u!58 &7594408304004153522
+--- !u!58 &4969981495565415326
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -451,6 +451,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0069833593, y: 0.017199595}
+  m_Offset: {x: 0.046953928, y: -0.0765861}
   serializedVersion: 2
-  m_Radius: 0.34372866
+  m_Radius: 1.1156934
