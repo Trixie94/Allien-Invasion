@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4455440856839072938}
   m_Layer: 0
   m_Name: ShootingEnemy
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,5 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   startTimeBetweenShots: 2
+  startTimeBetweenSpecialShots: 0
   projectile: {fileID: 4202404396194683299, guid: ca25bf5931d9d8c41a53d9223935ac87,
     type: 3}
+  specialProjectile: {fileID: 0}
