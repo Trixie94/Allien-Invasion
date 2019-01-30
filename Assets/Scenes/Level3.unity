@@ -3444,6 +3444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e5e21e23f3d761419cfeb23fc798a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pistol: {fileID: 1314111199}
+  plasmaGun: {fileID: 1314111198}
+  plasmaGunBool: 0
   playerPrefab: {fileID: 857641470202581076, guid: 74472228e3d480a419da7f0650b92b32,
     type: 3}
   spawnPoint: {fileID: 4397635771673278, guid: ee8c47a5d0cdda2479c9b9db2cb16ea0, type: 3}
@@ -4191,6 +4194,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74472228e3d480a419da7f0650b92b32, type: 3}
+--- !u!1 &1314111198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9105784824049407637, guid: 74472228e3d480a419da7f0650b92b32,
+    type: 3}
+  m_PrefabInstance: {fileID: 1314111197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1314111199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4847933793021855576, guid: 74472228e3d480a419da7f0650b92b32,
+    type: 3}
+  m_PrefabInstance: {fileID: 1314111197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1330266491
 GameObject:
   m_ObjectHideFlags: 0
