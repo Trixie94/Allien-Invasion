@@ -12,6 +12,7 @@ namespace UnityStandardAssets._2D
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
         public bool m_Shoot;
+        public Transform healthBarRect;
 
 
 
@@ -112,9 +113,9 @@ namespace UnityStandardAssets._2D
             m_FacingRight = !m_FacingRight;
 
             transform.Rotate(0f, 180f, 0f);
-            //Vector3 healthBarScale = healthBarRect.localScale;
-            //healthBarScale.x *= -1;
-            //healthBarRect.localScale = healthBarScale;
+            Vector3 healthBarScale = healthBarRect.localScale;
+            healthBarScale.x *= -1;
+            healthBarRect.localScale = healthBarScale;
         }
     }
 }
