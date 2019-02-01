@@ -20,7 +20,7 @@ public class GameMaster : MonoBehaviour {
     }
     private void Start()
     {
-        lifes = GlobalControl.Instance.lifes;
+        lifes = GlobalControl.Instance.lifes;   
         plasmaGunBool = GlobalControl.Instance.plasmaGunBool;
         if (plasmaGunBool == true)
         {
@@ -48,10 +48,10 @@ public class GameMaster : MonoBehaviour {
         yield return new WaitForSeconds(spawnDelay);
 
         Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
-        //GameObject clone = Instantiate(spawnPrefab, spawnPoint.position, spawnPoint.rotation) as GameObject;
-        //Destroy(clone, 3f);
+        GameObject clone = Instantiate(spawnPrefab, spawnPoint.position, spawnPoint.rotation) as GameObject;
+        Destroy(clone, 3f);
     }
-    public static void KillPlayer(Player player)
+    public void KillPlayer(Player player)
     {
         Destroy(player.gameObject);
         gm.StartCoroutine(gm._RespawnPlayer());

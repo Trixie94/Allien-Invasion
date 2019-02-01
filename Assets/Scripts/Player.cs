@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         stats.curHealth -= damage;
         if (stats.curHealth <= 0)
         {
-            GameMaster.KillPlayer(this);
+            GameMaster.gm.KillPlayer(this);
         }
 
         statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
