@@ -5,8 +5,6 @@ To end level 2 Player need to unlock Portal with a key that is on top of map wit
 
 
 TODO:
-Level0:
-1. Jebaited sound slider.
 
 Level1:
 1. Add key script.
