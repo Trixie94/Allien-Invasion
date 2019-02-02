@@ -9,11 +9,7 @@ Level0:
 1. Jebaited sound slider.
 
 Level1:
-1. Fix barrel sprite.
-2. Fix HP Bar to not flip.
-3. Fix PauseUI freeze camera.
-4. Fix distance between ramps.
-5. Add key script.
+1. Add key script.
 
 Level2:
 1. Add graphics from level1.
