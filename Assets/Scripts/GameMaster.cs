@@ -46,16 +46,20 @@ public class GameMaster : MonoBehaviour {
     {
         GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(spawnDelay);
-
-        Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
-        GameObject clone = Instantiate(spawnPrefab, spawnPoint.position, spawnPoint.rotation) as GameObject;
-        Destroy(clone, 3f);
+        if(gm.lifes > 0)
+        {
+            Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
+        }
+        
+        //GameObject clone = Instantiate(spawnPrefab, spawnPoint.position, spawnPoint.rotation) as GameObject;
+        //Destroy(clone, 3f);
     }
     public void KillPlayer(Player player)
     {
-        Destroy(player.gameObject);
-        gm.StartCoroutine(gm._RespawnPlayer());
-        gm.lifes -= 1;
+            Destroy(player.gameObject);
+            gm.StartCoroutine(gm._RespawnPlayer());
+            gm.lifes -= 1;
+        
     }
 
     public static void KillEnemy(Enemy enemy)

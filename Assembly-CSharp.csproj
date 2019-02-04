@@ -73,6 +73,7 @@
     <Compile Include="Assets\SawKill.cs" />
     <Compile Include="Assets\Scripts\AcidKill.cs" />
     <Compile Include="Assets\Scripts\ArmRotation.cs" />
+    <Compile Include="Assets\Scripts\BarHealth.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\Scripts\BossSpecialAbility.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
