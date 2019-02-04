@@ -8,9 +8,9 @@ public class Teleport : MonoBehaviour
     public int index;
     public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Player") 
+        if (coll.gameObject.tag == "Player" && GameMaster.gm.keyAcquired == true) 
         {
-            SceneManager.LoadScene(index);
+            SceneManager.LoadScene(index); 
         }
     }
 }

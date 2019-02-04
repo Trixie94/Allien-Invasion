@@ -8,6 +8,7 @@ public class StaticWeapon : MonoBehaviour
     public GameObject bulletPrefab;
     public int fireRate = 0;
     private float timeToFire;
+    
 
     private void Update()
     {

@@ -117,5 +117,21 @@ namespace UnityStandardAssets._2D
             healthBarScale.x *= -1;
             healthBarRect.localScale = healthBarScale;
         }
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            if(other.gameObject.tag == "MovingPlatform")
+            {
+                transform.parent = other.transform;
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if(other.gameObject.tag == "MovingPlatform")
+            {
+                transform.parent = null;
+            }
+        }
     }
 }

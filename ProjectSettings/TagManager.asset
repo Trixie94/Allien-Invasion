@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Weapon
   - Boss
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX

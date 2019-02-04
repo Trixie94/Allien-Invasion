@@ -39,7 +39,7 @@ public class Hit : MonoBehaviour
         if (_player != null)
         {
             _player.DamagePlayer(damage);
-            gameObject.SetActive(false);
+            DestroyProjectile();
         }
     }
 }

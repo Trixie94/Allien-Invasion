@@ -61,7 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MusicControler.cs" />
+    <Compile Include="Assets\NextLevelSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -70,6 +70,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\SawKill.cs" />
     <Compile Include="Assets\Scripts\AcidKill.cs" />
     <Compile Include="Assets\Scripts\ArmRotation.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets\Scripts\MoveInCircle.cs" />
     <Compile Include="Assets\Scripts\MoveTrail.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\MusicControler.cs" />
     <Compile Include="Assets\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\PauseUI.cs" />
     <Compile Include="Assets\Scripts\Platformer2DUserControl.cs" />
