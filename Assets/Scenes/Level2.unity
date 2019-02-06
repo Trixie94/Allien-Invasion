@@ -3768,7 +3768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &817367627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4321,7 +4321,7 @@ PrefabInstance:
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
@@ -5814,7 +5814,7 @@ PrefabInstance:
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.32
+      value: 5.01
       objectReference: {fileID: 0}
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
@@ -5883,7 +5883,7 @@ PrefabInstance:
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.27
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 8310108563514878426, guid: c87603fbfabfbae4e8244c48d0ba22c2,
         type: 3}
@@ -6160,7 +6160,7 @@ PrefabInstance:
     - target: {fileID: 857641470202581072, guid: 74472228e3d480a419da7f0650b92b32,
         type: 3}
       propertyPath: m_JumpForce
-      value: 1010
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74472228e3d480a419da7f0650b92b32, type: 3}
